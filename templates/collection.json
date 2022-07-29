@@ -161,6 +161,54 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "1659067231579d7715": {
+      "type": "image-banner",
+      "blocks": {
+        "1659067231a3f4ad17-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Not sure what to choose?",
+            "heading_size": "h1"
+          }
+        },
+        "1659067231a3f4ad17-1": {
+          "type": "text",
+          "settings": {
+            "text": "Answer few questions in our quick survey and find out which product would work best in your situation.",
+            "text_style": "body"
+          }
+        },
+        "4ee150a9-740c-44e7-8535-8b56297ed9b1": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Take a Quick Survey",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1659067231a3f4ad17-0",
+        "1659067231a3f4ad17-1",
+        "4ee150a9-740c-44e7-8535-8b56297ed9b1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/blob-scene-haikei_1.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": true,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     }
   },
   "order": [
@@ -170,6 +218,7 @@
     "1659067055d006b3b8",
     "1659067062211e466b",
     "1659067109b1cf2eab",
-    "165906713323f61c11"
+    "165906713323f61c11",
+    "1659067231579d7715"
   ]
 }
