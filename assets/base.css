@@ -2912,3 +2912,10 @@ details-disclosure > details {
     outline: transparent solid 1px;
   }
 }
+
+
+.card {
+    border: 1px solid;
+    border-radius: 25px;
+    padding: 2rem;
+}
