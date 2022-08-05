@@ -3,7 +3,7 @@
     "colors_solid_button_labels": "#ffffff",
     "colors_accent_1": "#2c9340",
     "gradient_accent_1": "",
-    "colors_accent_2": "#c8dcc8",
+    "colors_accent_2": "#121212",
     "gradient_accent_2": "",
     "colors_text": "#121212",
     "colors_outline_button_labels": "#121212",
@@ -121,7 +121,7 @@
       "footer": {
         "type": "footer",
         "settings": {
-          "color_scheme": "accent-1",
+          "color_scheme": "accent-2",
           "newsletter_enable": true,
           "newsletter_heading": "Sign up to receive news and updates.",
           "show_social": true,
