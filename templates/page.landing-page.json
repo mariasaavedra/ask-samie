@@ -8,23 +8,6 @@
         "padding_bottom": 0
       }
     },
-    "1659678429325bcba4": {
-      "type": "apps",
-      "blocks": {
-        "c9ef2be7-98c1-4ba5-9ffb-b0539fdb9b93": {
-          "type": "shopify:\/\/apps\/quiz-kit-personalized-quizzes\/blocks\/quiz\/0b04f315-849a-4507-8339-7be41cc01813",
-          "settings": {
-            "key": "2eWAlWIvjgC"
-          }
-        }
-      },
-      "block_order": [
-        "c9ef2be7-98c1-4ba5-9ffb-b0539fdb9b93"
-      ],
-      "settings": {
-        "include_margins": true
-      }
-    },
     "1659679942c214adb2": {
       "type": "multicolumn",
       "blocks": {
@@ -74,9 +57,9 @@
       ],
       "settings": {
         "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
+        "heading_size": "h2",
+        "image_width": "half",
+        "image_ratio": "square",
         "columns_desktop": 3,
         "column_alignment": "left",
         "background_style": "none",
@@ -85,14 +68,31 @@
         "color_scheme": "background-1",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 8,
+        "padding_bottom": 8
+      }
+    },
+    "1659678429325bcba4": {
+      "type": "apps",
+      "blocks": {
+        "c9ef2be7-98c1-4ba5-9ffb-b0539fdb9b93": {
+          "type": "shopify:\/\/apps\/quiz-kit-personalized-quizzes\/blocks\/quiz\/0b04f315-849a-4507-8339-7be41cc01813",
+          "settings": {
+            "key": "2eWAlWIvjgC"
+          }
+        }
+      },
+      "block_order": [
+        "c9ef2be7-98c1-4ba5-9ffb-b0539fdb9b93"
+      ],
+      "settings": {
+        "include_margins": true
       }
     }
   },
   "order": [
     "main",
-    "1659678429325bcba4",
-    "1659679942c214adb2"
+    "1659679942c214adb2",
+    "1659678429325bcba4"
   ]
 }
