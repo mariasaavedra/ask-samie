@@ -6,9 +6,27 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "1659678429325bcba4": {
+      "type": "apps",
+      "blocks": {
+        "c9ef2be7-98c1-4ba5-9ffb-b0539fdb9b93": {
+          "type": "shopify:\/\/apps\/quiz-kit-personalized-quizzes\/blocks\/quiz\/0b04f315-849a-4507-8339-7be41cc01813",
+          "settings": {
+            "key": "2eWAlWIvjgC"
+          }
+        }
+      },
+      "block_order": [
+        "c9ef2be7-98c1-4ba5-9ffb-b0539fdb9b93"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "1659678429325bcba4"
   ]
 }
