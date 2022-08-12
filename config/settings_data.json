@@ -120,6 +120,26 @@
       },
       "footer": {
         "type": "footer",
+        "blocks": {
+          "29e45dee-416e-47cd-af28-8759a0def153": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Navigate",
+              "menu": "footer"
+            }
+          },
+          "2c1d41cf-6c87-45c4-a27f-59fd7e52584b": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Quick links",
+              "menu": "footer"
+            }
+          }
+        },
+        "block_order": [
+          "29e45dee-416e-47cd-af28-8759a0def153",
+          "2c1d41cf-6c87-45c4-a27f-59fd7e52584b"
+        ],
         "settings": {
           "color_scheme": "accent-2",
           "newsletter_enable": true,
