@@ -2,78 +2,40 @@
   "sections": {
     "16590688527e3bad83": {
       "type": "image-with-text",
-      "blocks": {
-        "165906885262048d25-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "We will help find you the right equipment.",
-            "heading_size": "h1"
-          }
-        },
-        "165906885262048d25-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Get started by answering a few questions about the person and their home. When you are done you'll have a customized list of solutions and all the details you need to make the changes happen!<\/p>",
-            "text_style": "body"
-          }
-        },
-        "165906885262048d25-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Take a Quick Survey",
-            "button_link": "shopify:\/\/pages\/landing-page"
-          }
-        }
-      },
-      "block_order": [
-        "165906885262048d25-0",
-        "165906885262048d25-1",
-        "165906885262048d25-2"
-      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Group_9.png",
-        "height": "adapt",
-        "desktop_image_width": "medium",
+        "height": "small",
+        "desktop_image_width": "small",
         "layout": "image_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
         "color_scheme": "background-1",
         "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
-    "featured_collection": {
-      "type": "featured-collection",
+    "16603260784c005e1c": {
+      "type": "apps",
+      "blocks": {
+        "277ecc2c-255b-40dd-b7de-87c0d247f513": {
+          "type": "shopify:\/\/apps\/quiz-kit-personalized-quizzes\/blocks\/quiz\/0b04f315-849a-4507-8339-7be41cc01813",
+          "settings": {
+            "key": "2eWAlWIvjgC"
+          }
+        }
+      },
+      "block_order": [
+        "277ecc2c-255b-40dd-b7de-87c0d247f513"
+      ],
       "settings": {
-        "title": "Featured products",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "all",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": false,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 28,
-        "padding_bottom": 36
+        "include_margins": true
       }
     }
   },
   "order": [
     "16590688527e3bad83",
-    "featured_collection"
+    "16603260784c005e1c"
   ]
 }
