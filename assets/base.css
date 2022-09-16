@@ -2924,7 +2924,7 @@ button[id^="quiz-kit-question-image-box"]:hover {
   color: white;
 }
 
-.active-class button[id^="quiz-kit-question-image-box"] {
+button[id^="quiz-kit-question-image-box"].active-class {
   background: rgb(94, 167, 100);
   color: white;
 }
