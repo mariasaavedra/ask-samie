@@ -2923,3 +2923,8 @@ button[id^="quiz-kit-question-image-box"]:hover {
   background: rgb(94, 167, 100);
   color: white;
 }
+
+.active-class button[id^="quiz-kit-question-image-box"] {
+  background: rgb(94, 167, 100);
+  color: white;
+}
