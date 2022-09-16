@@ -2921,4 +2921,5 @@ details-disclosure > details {
 }
 button[id^="quiz-kit-question-image-box"]:hover {
   background: rgb(94, 167, 100);
+  color: white;
 }
