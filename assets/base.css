@@ -2919,3 +2919,6 @@ details-disclosure > details {
     border-radius: 25px;
     padding: 2rem;
 }
+button[id^="quiz-kit-question-image-box"] {
+  background: red;
+}
