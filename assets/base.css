@@ -2929,6 +2929,8 @@ button[id^="quiz-kit-question-image-box"].active-class {
   color: white;
 }
 
-.whai-quiz {
+.whai-brand-container {
+    display: none !important;
+} 
     display: none !important;
 } 
