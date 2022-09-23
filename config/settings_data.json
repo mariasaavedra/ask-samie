@@ -169,7 +169,22 @@
     },
     "content_for_index": [
 
-    ]
+    ],
+    "blocks": {
+      "15551562133269743879": {
+        "type": "shopify:\/\/apps\/codeinspire-accessibility-tool\/blocks\/app-embed\/9c320235-d5d5-4e1c-baf6-809572578ea3",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "8133853093390032344": {
+        "type": "shopify:\/\/apps\/visual-quiz-builder\/blocks\/app-embed\/82108934-e042-4d36-9032-f4f6674fae34",
+        "disabled": false,
+        "settings": {
+          "render": "shadow"
+        }
+      }
+    }
   },
   "presets": {
     "Default": {
