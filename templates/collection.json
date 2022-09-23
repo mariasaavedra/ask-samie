@@ -54,33 +54,6 @@
         "padding_bottom": 36
       }
     },
-    "1659067055d006b3b8": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Arms & Legs",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "mobility",
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "1659067062211e466b": {
       "type": "featured-collection",
       "settings": {
@@ -89,7 +62,7 @@
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "mobility",
+        "collection": "vision",
         "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
@@ -116,34 +89,7 @@
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "mobility",
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "165906713323f61c11": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Tremors",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "mobility",
+        "collection": "memory",
         "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
@@ -215,10 +161,8 @@
     "banner",
     "product-grid",
     "1659067004cb4899ee",
-    "1659067055d006b3b8",
     "1659067062211e466b",
     "1659067109b1cf2eab",
-    "165906713323f61c11",
     "1659067231579d7715"
   ]
 }
