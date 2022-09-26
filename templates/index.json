@@ -19,15 +19,16 @@
     "16603260784c005e1c": {
       "type": "apps",
       "blocks": {
-        "277ecc2c-255b-40dd-b7de-87c0d247f513": {
-          "type": "shopify:\/\/apps\/quiz-kit-personalized-quizzes\/blocks\/quiz\/0b04f315-849a-4507-8339-7be41cc01813",
+        "900b42ac-fca2-41f1-a546-cb5d19db9e26": {
+          "type": "shopify:\/\/apps\/visual-quiz-builder\/blocks\/app-block\/82108934-e042-4d36-9032-f4f6674fae34",
           "settings": {
-            "key": "2eWAlWIvjgC"
+            "quiz_id": 1,
+            "render": "shadow"
           }
         }
       },
       "block_order": [
-        "277ecc2c-255b-40dd-b7de-87c0d247f513"
+        "900b42ac-fca2-41f1-a546-cb5d19db9e26"
       ],
       "settings": {
         "include_margins": true
