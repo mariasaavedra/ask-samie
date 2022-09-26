@@ -7,89 +7,9 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
-    },
-    "1660328904f1973bcb": {
-      "type": "image-with-text",
-      "blocks": {
-        "1660328904b14c159f-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Who We Are?",
-            "heading_size": "h1"
-          }
-        },
-        "1660328904b14c159f-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>We started as a service based company in the Kansas City area called AccessAble Living sending occupational therapists out to client's homes to provide a free home assessment resulting in a list of equipment solutions like shower chairs, magnifiers and ramps that we then delivered!  It's a great service but we can only reach the people we can drive to. We wanted anyone to be able to access our knowledge at any time so now you can just AskSAMIE and not only learn what's available to make life easier but be able to get it quickly from a trusted source!<\/p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "1660328904b14c159f-0",
-        "1660328904b14c159f-1"
-      ],
-      "settings": {
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "1660328897d5de96b7": {
-      "type": "image-with-text",
-      "blocks": {
-        "1660328897d682c36c-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Meet our Founder",
-            "heading_size": "h1"
-          }
-        },
-        "1660328897d682c36c-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Dr. Brandy Archie has been providing solutions to families as an occupational therapist for over 15 years.While working all over the country and in every setting from hospitals to home care she noticed a shared problem everywhere. Health insurance only pays for the tools and treatments to accommodate the body directly but not things to modify the environment. So while insurance would cover a leg surgery and a wheelchair, it would not cover the ramp needed to get that wheelchair in the house.Patients and families were left to find solutions on their own or hope to connect with a knowledgeable healthcare provider to guide them.Frustrated by this inconsistency in care for a problem that so many experienced she created AccessAble LIving to serve clients in the Kansas City area and has since expanded the vision to serve everyone everywhere through AskSAMIE.<\/p>",
-            "text_style": "body"
-          }
-        },
-        "1660328897d682c36c-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "1660328897d682c36c-0",
-        "1660328897d682c36c-1",
-        "1660328897d682c36c-2"
-      ],
-      "settings": {
-        "height": "small",
-        "desktop_image_width": "small",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
-    "main",
-    "1660328904f1973bcb",
-    "1660328897d5de96b7"
+    "main"
   ]
 }
