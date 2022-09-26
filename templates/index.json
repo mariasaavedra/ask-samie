@@ -23,7 +23,7 @@
           "type": "shopify:\/\/apps\/visual-quiz-builder\/blocks\/app-block\/82108934-e042-4d36-9032-f4f6674fae34",
           "settings": {
             "quiz_id": 1,
-            "render": "shadow"
+            "render": "root"
           }
         }
       },
