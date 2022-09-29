@@ -22,7 +22,7 @@
         "900b42ac-fca2-41f1-a546-cb5d19db9e26": {
           "type": "shopify:\/\/apps\/visual-quiz-builder\/blocks\/app-block\/82108934-e042-4d36-9032-f4f6674fae34",
           "settings": {
-            "quiz_id": 1,
+            "quiz_id": -1,
             "render": "shadow"
           }
         }
