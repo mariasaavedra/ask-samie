@@ -39,10 +39,29 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "166446871683be152c": {
+      "type": "apps",
+      "blocks": {
+        "74265b4b-c468-4453-bb22-c7829654978c": {
+          "type": "shopify:\/\/apps\/visual-quiz-builder\/blocks\/app-block\/82108934-e042-4d36-9032-f4f6674fae34",
+          "settings": {
+            "quiz_id": 0,
+            "render": "shadow"
+          }
+        }
+      },
+      "block_order": [
+        "74265b4b-c468-4453-bb22-c7829654978c"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "16603260784c005e1c",
-    "166446823328d5e4c7"
+    "166446823328d5e4c7",
+    "166446871683be152c"
   ]
 }
