@@ -1,42 +1,48 @@
 {
   "sections": {
-    "16590688527e3bad83": {
-      "type": "image-with-text",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Group_9.png",
-        "height": "small",
-        "desktop_image_width": "small",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "center",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "16603260784c005e1c": {
       "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "166446823328d5e4c7": {
+      "type": "multicolumn",
       "blocks": {
-        "900b42ac-fca2-41f1-a546-cb5d19db9e26": {
-          "type": "shopify:\/\/apps\/visual-quiz-builder\/blocks\/app-block\/82108934-e042-4d36-9032-f4f6674fae34",
+        "166446823362c84931-1": {
+          "type": "column",
           "settings": {
-            "quiz_id": -7689,
-            "render": "shadow"
+            "image": "shopify:\/\/shop_images\/Group_9.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
           }
         }
       },
       "block_order": [
-        "900b42ac-fca2-41f1-a546-cb5d19db9e26"
+        "166446823362c84931-1"
       ],
       "settings": {
-        "include_margins": true
+        "title": "",
+        "heading_size": "h2",
+        "image_width": "third",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     }
   },
   "order": [
-    "16590688527e3bad83",
-    "16603260784c005e1c"
+    "16603260784c005e1c",
+    "166446823328d5e4c7"
   ]
 }
