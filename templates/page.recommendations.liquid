@@ -19,6 +19,7 @@
       .then(function(result) { 
         // Making sure that the product actually exists
         if (result.status !== 404) {
+          console.log(result.json());
           return result.json()
         } else {
           return { product: null }
@@ -33,7 +34,7 @@
   .then(function (products) {
     // Filtering out the products list if it had any removed products
     products = products.filter(function (product) { return !!product })
-
+  console.log(products);
     // The product grid template    
     var product_template = function(product, index) {
       return `
