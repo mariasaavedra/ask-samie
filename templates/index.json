@@ -8,21 +8,6 @@
     },
     "166446823328d5e4c7": {
       "type": "multicolumn",
-      "blocks": {
-        "166446823362c84931-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Group_9.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "166446823362c84931-1"
-      ],
       "settings": {
         "title": "",
         "heading_size": "h2",
