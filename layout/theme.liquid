@@ -263,6 +263,18 @@
         pauseSlideshow: `{{ 'sections.slideshow.pause_slideshow' | t }}`,
         playSlideshow: `{{ 'sections.slideshow.play_slideshow' | t }}`,
       }
+
+      const installApp = document.getElementById('installApp');
+
+      installApp.addEventListener('click', async () => {
+          if (deferredPrompt !== null) {
+              deferredPrompt.prompt();
+              const { outcome } = await deferredPrompt.userChoice;
+              if (outcome === 'accepted') {
+                  deferredPrompt = null;
+              }
+          }
+      });
     </script>
 
     {%- if settings.predictive_search_enabled -%}
