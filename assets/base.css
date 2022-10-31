@@ -2932,4 +2932,7 @@ button[id^="quiz-kit-question-image-box"].active-class {
 .whai-brand-container {
     display: none !important;
 } 
-   
+.vp-title, 
+.player .Title_module_title__217ea902 {
+  display: none !important;
+}
