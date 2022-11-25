@@ -33,13 +33,7 @@
   .then(function (products) {
     // Filtering out the products list if it had any removed products
     products = products.filter(function (product) { return !!product })
-
-    let incontinence = products.filter(product => product.product_type === 'Incontinence');
-    let vision = products.filter(product => product.product_type === 'Vision');
-    let mobility = products.filter(product => product.product_type === 'mobility');
-    let memory = products.filter(product => product.product_type === 'Memory');
-    let hands_arms= products.filter(product => product.product_type === 'Hands + Arms');
-
+    
     // The product grid template    
     var product_template = function(product, index) {
       return `
@@ -63,8 +57,24 @@
 </div>`
     }
 
+    // group by tags
+    
+    let incontinence = products.filter(product => product.product_type === 'Incontinence');
+    let vision = products.filter(product => product.product_type === 'Vision');
+    let mobility = products.filter(product => product.product_type === 'mobility');
+    let memory = products.filter(product => product.product_type === 'Memory');
+    let hands_arms= products.filter(product => product.product_type === 'Hands + Arms');
+
     // Fill the resulted products grid in the #products element
-    document.getElementById("products").innerHTML = incontinence.map(product_template).join('')
+    document.getElementById("products").innerHTML += incontinence.map(product_template).join('')
+    
+    document.getElementById("products").innerHTML += vision.map(product_template).join('')
+    
+    document.getElementById("products").innerHTML += mobility.map(product_template).join('')
+    
+    document.getElementById("products").innerHTML += memory.map(product_template).join('')
+    
+    document.getElementById("products").innerHTML += hands_arms.map(product_template).join('')
   })
 </script>
 {% style %}
