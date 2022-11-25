@@ -35,11 +35,10 @@
     products = products.filter(function (product) { return !!product })
 
     let incontinence = products.filter(product => product.product_type === 'Incontinence');
-    
-    let vision = [];
-    let mobility = [];
-    let memory = [];
-    let hands_arms = [];
+    let vision = products.filter(product => product.product_type === 'Vision');
+    let mobility = products.filter(product => product.product_type === 'mobility');
+    let memory = products.filter(product => product.product_type === 'Memory');
+    let hands_arms= products.filter(product => product.product_type === 'Hands + Arms');
 
     // The product grid template    
     var product_template = function(product, index) {
