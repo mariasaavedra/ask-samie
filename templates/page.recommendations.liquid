@@ -34,6 +34,13 @@
     // Filtering out the products list if it had any removed products
     products = products.filter(function (product) { return !!product })
 
+    let incontinence = products.filter(product => product.product_type === 'Incontinence');
+    
+    let vision = [];
+    let mobility = [];
+    let memory = [];
+    let hands_arms = [];
+
     // The product grid template    
     var product_template = function(product, index) {
       return `
@@ -58,7 +65,7 @@
     }
 
     // Fill the resulted products grid in the #products element
-    document.getElementById("products").innerHTML = products.map(product_template).join('')
+    document.getElementById("products").innerHTML = incontinence.map(product_template).join('')
   })
 </script>
 {% style %}
