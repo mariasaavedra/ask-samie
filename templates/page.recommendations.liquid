@@ -67,13 +67,10 @@
 
     // Fill the resulted products grid in the #products element
     document.getElementById("products").innerHTML += '<div> <h1>Incontinence</h1> <div>' + incontinence.map(product_template).join('') + '</div></div>'
-    document.getElementById("products").innerHTML += vision.map(product_template).join('')
-    
-    document.getElementById("products").innerHTML += mobility.map(product_template).join('')
-    
-    document.getElementById("products").innerHTML += memory.map(product_template).join('')
-    
-    document.getElementById("products").innerHTML += hands_arms.map(product_template).join('')
+    document.getElementById("products").innerHTML += '<div> <h1>Vision</h1> <div>' + incontinence.map(product_template).join('') + '</div></div>
+    document.getElementById("products").innerHTML += '<div> <h1>Mobility</h1> <div>' + incontinence.map(product_template).join('') + '</div></div>
+    document.getElementById("products").innerHTML += '<div> <h1>Memory</h1> <div>' + incontinence.map(product_template).join('') + '</div></div>
+    document.getElementById("products").innerHTML += '<div> <h1>Hands + Arms</h1> <div>' + incontinence.map(product_template).join('') + '</div></div>
   })
 </script>
 {% style %}
