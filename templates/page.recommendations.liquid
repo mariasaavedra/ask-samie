@@ -66,8 +66,7 @@
     let hands_arms= products.filter(product => product.product_type === 'Hands + Arms');
 
     // Fill the resulted products grid in the #products element
-    document.getElementById("products").innerHTML += incontinence.map(product_template).join('')
-    
+    document.getElementById("products").innerHTML += '<div> <h1>Incontinence</h1>' + incontinence.map(product_template).join('') + '</div>'
     document.getElementById("products").innerHTML += vision.map(product_template).join('')
     
     document.getElementById("products").innerHTML += mobility.map(product_template).join('')
