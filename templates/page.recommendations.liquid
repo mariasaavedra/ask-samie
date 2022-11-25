@@ -66,14 +66,14 @@
     let hands_arms= products.filter(product => product.product_type === 'Hands + Arms');
 
     // Fill the resulted products grid in the #products element
-    document.getElementById("products").innerHTML += `<div> ${incontinence.map(product_template).join('')} <div>`
-    document.getElementById("products").innerHTML += `<div> ${vision.map(product_template).join('')} <div>`
-    document.getElementById("products").innerHTML += `<div> ${mobility.map(product_template).join('')} <div>`
-    document.getElementById("products").innerHTML += `<div> ${hands_arms.map(product_template).join('')} <div>`
+    document.getElementById("products").innerHTML += `<div class='products-container'> ${incontinence.map(product_template).join('')} <div>`
+    document.getElementById("products").innerHTML += `<div class='products-container'> ${vision.map(product_template).join('')} <div>`
+    document.getElementById("products").innerHTML += `<div class='products-container'> ${mobility.map(product_template).join('')} <div>`
+    document.getElementById("products").innerHTML += `<div class='products-container'> ${hands_arms.map(product_template).join('')} <div>`
   })
 </script>
 {% style %}
-/*   #products {
+  .products-container {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -83,13 +83,13 @@
 
   .product {
     width: 24%;
-      margin: 1%;
+    margin: 1%;
     display: flex;
     position: relative;
     align-items: center;
     flex-direction: column;
     justify-content: center;
-  } */
+  }
 
   .product a {
     text-decoration: none;
