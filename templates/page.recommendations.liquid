@@ -66,10 +66,22 @@
     let hands_arms= products.filter(product => product.product_type === 'Hands + Arms');
 
     // Fill the resulted products grid in the #products element
+    if(incontinence.length > 0) {
     document.getElementById("products").innerHTML += `<div class='products-container'> <span class='tag'>incontinence</span>${incontinence.map(product_template).join('')} <div>`
+    }
+    if(vision.length > 0) {
     document.getElementById("products").innerHTML += `<div class='products-container'> <span class='tag'>vision</span>${vision.map(product_template).join('')} <div>`
+    }
+    if(mobility.length > 0) {
     document.getElementById("products").innerHTML += `<div class='products-container'> <span class='tag'>mobility</span>${mobility.map(product_template).join('')} <div>`
+    }
+    if(memory.length > 0) {
+    document.getElementById("products").innerHTML += `<div class='products-container'> <span class='tag'>memory</span>${memory.map(product_template).join('')} <div>`
+    }
+    if(hands_arms.length > 0) {
     document.getElementById("products").innerHTML += `<div class='products-container'> <span class='tag'>hands_arms</span>${hands_arms.map(product_template).join('')} <div>`
+    }
+
   })
 </script>
 {% style %}
