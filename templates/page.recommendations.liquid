@@ -73,7 +73,11 @@
   })
 </script>
 {% style %}
-  .products-container {
+  .product-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+  }
+/*   .products-container {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -90,7 +94,7 @@
     flex-direction: column;
     justify-content: center;
   }
-
+ */
   .product a {
     text-decoration: none;
   }
