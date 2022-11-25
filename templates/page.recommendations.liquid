@@ -67,6 +67,9 @@
 
     // Fill the resulted products grid in the #products element
     document.getElementById("products").innerHTML += `<div> ${incontinence.map(product_template).join('')} <div>`
+    document.getElementById("products").innerHTML += `<div> ${vision.map(product_template).join('')} <div>`
+    document.getElementById("products").innerHTML += `<div> ${mobility.map(product_template).join('')} <div>`
+    document.getElementById("products").innerHTML += `<div> ${hands_arms.map(product_template).join('')} <div>`
   })
 </script>
 {% style %}
