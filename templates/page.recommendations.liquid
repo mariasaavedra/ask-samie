@@ -60,3 +60,30 @@
     document.getElementById("products").innerHTML = products.map(product_template).join('')
   })
 </script>
+{% style %}
+  #products {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+  }
+
+  .product {
+    width: 24%;
+      margin: 1%;
+    display: flex;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .product a {
+    text-decoration: none;
+  }
+
+  .product .info {
+    text-align: center;
+  }
+{% endstyle %}
