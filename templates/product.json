@@ -72,8 +72,8 @@
           "settings": {
             "heading": "Video Explanation",
             "icon": "none",
-            "content": "",
-            "page": "video"
+            "content": "<p>{{ product.metafields.custom.product_video.value }}<\/p>",
+            "page": ""
           }
         },
         "share": {
