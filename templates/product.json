@@ -63,7 +63,7 @@
           "settings": {
             "heading": "Specifciation",
             "icon": "none",
-            "content": "",
+            "content": "<p>{{ product.metafields.custom.specification_content | metafield_tag }}<\/p>",
             "page": ""
           }
         },
