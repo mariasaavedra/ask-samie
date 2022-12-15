@@ -54,7 +54,7 @@
           "settings": {
             "heading": "Why this works",
             "icon": "none",
-            "content": "",
+            "content": "<p>{{ product.metafields.custom.why_this_works_content | metafield_tag }}<\/p>",
             "page": ""
           }
         },
